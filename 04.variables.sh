@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #variable declaration   passing the variable values outside the script is called arguments/parameters
-PERSON1=$3
+PERSON1=$1
 PERSON2=$2
 
 #referring the variable
