@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MOVIES={"hi nana" "RRR" "DJ tillu" "animal"}   # list of array
+MOVIES=("hi nana" "RRR" "DJ tillu" "animal")   # list of array
 
 # size of above array is 4
 # index are 0,1,2,3
