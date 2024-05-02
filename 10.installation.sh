@@ -18,6 +18,7 @@ then
     exit 1
 else
     echo "installation of mysql------SUCCESS"
+fi
 
 dnf install git -y
 
@@ -28,3 +29,5 @@ then
 else
     echo "installation of git  ---------- SUCESS"
 fi
+
+echo "is scripting proceeding"
