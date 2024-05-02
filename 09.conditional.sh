@@ -10,4 +10,4 @@ else
 fi
 
 
-#-gt, -lt, -eq, -ge, -le -----------these are the some of the options greaterthan,lessthan,equal,greaterthanorequal,lessthenorequal,
+#-gt, -lt, -eq, -ge, -le, -ne-----------these are the some of the options greaterthan,lessthan,equal,greaterthanorequal,lessthenorequal,notequalto
