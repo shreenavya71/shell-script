@@ -3,7 +3,13 @@
 set -e     # we dont need to write validation to check each and every command, if you write set -e, shell script will check every command manually.
 
 
-USERID=$(id -u)
+failure(){
+    echo "Failed at $1: $2"
+}
+
+trap 'failure ${LINENO} "$BASH_COMMAND" ' ERR     # trap is syntax, err is signal, failure is a function, ${lineno} and "$bash_command" are inputs.
+
+USERID=$(id -u)  #ERR
 
 if [ $USERID -ne 0 ]    
 then
