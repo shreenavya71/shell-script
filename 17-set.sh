@@ -7,7 +7,7 @@ failure(){
     echo "Failed at $1: $2"
 }
 
-trap 'failure ${LINENO} "$BASH_COMMAND" ' ERR     # trap is syntax, err is signal, failure is a function, ${lineno} and "$bash_command" are inputs.
+trap 'failure ${LINENO} "$BASH_COMMAND"' ERR     # trap is syntax, err is signal, failure is a function, ${lineno} and "$bash_command" are inputs.
 
 USERID=$(id -u)  #ERR
 
